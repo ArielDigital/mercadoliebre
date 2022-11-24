@@ -12,6 +12,12 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve("./views/home.html"));
 });
 
-app.get("/home2", (req, res) => {
-  res.sendFile(path.resolve("./views/home2.html"));
+app.get("/Loguin", (req, res) => {
+  res.sendFile(path.resolve("./views/Loguin.html"));
 });
+
+app.get("/Register", (req, res) => {
+  res.sendFile(path.resolve("./views/Register.html"));
+});
+
+
