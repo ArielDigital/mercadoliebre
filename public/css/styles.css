@@ -27,6 +27,7 @@ img{
 
 .main-header-top-bar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -328,6 +329,19 @@ display: none;
 /******************* 769 **********************************/
 @media (min-width: 769px) {
 
+  .buscadorytarjeta{
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    
+  }
+
+  .buscadorytarjeta h3{
+    display: flex;
+    justify-content: left;
+
+  }
+
  .left-navbar li a:hover {
     font-weight: 600; 
     color: #03264c;
@@ -341,6 +355,7 @@ display: none;
   .main-header-top-bar {
     /*border: red 5px solid;*/
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -353,12 +368,12 @@ display: none;
   }
 
   .cajita-texto {
-    width: 440px;
+  
     height: 40px;
   }
 
   .copy-header {
-    width: 260px;
+   max-width: 100%;
   }
 
   .main-navbar {
@@ -412,10 +427,6 @@ display: none;
     width: 430px;
   }
 
-  .copy-header {
-    /* border: rgb(57, 38, 204) 5px solid;*/
-    width: 290px;
-  }
 
   .logo {
     /* border: rgb(57, 38, 204) 5px solid;*/
