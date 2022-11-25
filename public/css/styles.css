@@ -328,6 +328,16 @@ display: none;
 /******************* 769 **********************************/
 @media (min-width: 769px) {
 
+ .left-navbar li a:hover {
+    font-weight: 600; 
+    color: #03264c;
+  }
+
+  .right-navbar li a:hover {
+    font-weight: 600; 
+    color: #03264c;
+  }
+
   .main-header-top-bar {
     /*border: red 5px solid;*/
     display: flex;
